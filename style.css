@@ -5,12 +5,13 @@ body {
     width: 960px;
     font-size: 15px;
     text-align: center;
+    margin-top: 7%;
+    margin-left: 20%;
 }
 /* Working as intended? */
 header { 
     background: #ebebeb;
     height: 100px ;
-    width: 75%;
     margin: 0 auto;
     line-height: 100px;
 }
@@ -18,29 +19,36 @@ header {
 nav { 
     background: #ebebeb;
     height: 100px;
-    width: 75%;
-    margin: 10px auto;
+    margin: 13px auto;
     line-height: 100px;
 }
 
 .box {
-    max-width: 990px;
+    height: 50%;
 }
 /* Working as intended */
 aside { 
     background: #ebebeb;
-    width: 33.33%;
+    width: 445px;
     float: right;
-    height: 300px;
-    margin-right: 120px;
+    height: 250px;
+    /* margin-right: 120px; */
     /* padding: 10px; */
 }
 /* Not working as intended */
 section { 
     background: #ebebeb;
-    width: 33.33%;
-    margin-left: 120px;
-    height: 300px;
+    width: 495px;
+    /* margin-left: 120px; */
+    height: 250px;
+}
+#h1-sec {
+    line-height: 73px;
+}
+.art_id {
+    display: block;
+    color: #ebebeb;
+    background: #777;
 }
 
 /* Working as intended*/
@@ -48,31 +56,43 @@ article {
     color: #ebebeb;
     background: #777;
     float: left;
-    width: 90%;
-    margin-left: 5%;
-    /* visibility: hidden; */
+    width: 96%;
+    height: 175px;
+    margin-left: 2%;
+    margin-top: -25px;
+    /* line-height: 500px; */
+    /* padding: 10px; */
 }
 /* Not working as intended */
 h1 { 
     color: #777;
     background: #ebebeb;
-    height: 50px;
-    line-height: 50px;
-    visibility: hidden;
+    width: 93%;
+    margin-left: 3.25%;
+    /* visibility: hidden; */
 }
 
 /* Not working as intended */
 p { 
     color: #777;
     background: #ebebeb;
-    height: 50px;
-    line-height: 50px;
-    visibility: hidden;
-    /* clear: both; */
+    width: 93%;
+    margin-left: 3.25%;
+    /* visibility: hidden; */
+}
+#pp,
+#hh {
+    line-height: 40px;
+    height: 40px;
 }
 /* Working as intended */
-/* footer { 
+footer { 
     background: #ebebeb;
-    width: 75%;
-    margin: 0 auto;
-} */
+    margin: 20px auto;
+    height: 100px;
+    line-height: 100px;
+}
+
+html {
+    
+}
